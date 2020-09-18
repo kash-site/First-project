@@ -1,0 +1,163 @@
+/*** tag selector ***/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+p{
+  font-weight: 300;
+  line-height: 2;
+}
+
+hr{
+  border-style: none;
+  border-top: dotted;
+  width: 3rem;
+  border-width: 6px;
+  border-color: #e1ccec;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+  color: #be79df;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #9d65c9;
+  font-weight: normal;
+  margin: 1.5rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #be79df;
+}
+
+
+/*** class selector ***/
+.top-container{
+  background-color: #f1f1f6;
+  padding-top: 95px;
+  position: relative;
+}
+
+.bottom-container{
+  background-color: #e1ccec;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+.top-cloud{
+  position: absolute;
+  top: 60px;
+  right: 300px;
+}
+
+.profile-img{
+  width: 9rem;
+}
+
+.design-img{
+  margin: 0 auto 0 auto;
+  width: 8rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-img{
+  margin: 0 auto 0 auto;
+  width: 8rem;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 85px auto 85px auto;
+  text-align: left;
+}
+
+.profile{
+  width: 40%;
+  margin: 70px auto 70px auto;
+}
+
+.skills{
+  margin-top: 5rem;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 70px auto 70px auto;
+}
+
+.space{
+  line-height: 3;
+}
+
+.btn {
+	box-shadow:inset 0 1px 0 0 #efdcfb;
+	background:linear-gradient(to bottom, #934ecc 5%, #8044b0 100%);
+	background-color:#934ecc;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+	padding:12px 18px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #9752cc;
+  margin-top: 1.5rem;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #8044b0 5%, #934ecc 100%);
+	background-color:#8044b0;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link:link{
+  color: #9d65c9;
+  text-decoration:none;
+  cursor: pointer;
+}
+.footer-link:visited	{
+  color: #9d65c9;
+  text-decoration:none;
+  cursor: auto;
+}
+.footer-link:link:active	{
+  color: #9d65c9;
+}
+.footer-link:visited:active {
+  color: #9d65c9;
+}
+.footer-link{
+  font-weight: bold;
+  margin: 10px;
+}
+.footer-link:hover{
+  font-weight: bold;
+  margin: 10px;
+  color: #be9fe1;
+}
+.trademark{
+  color: white;
+  margin-top: 50px;
+  font-size: 0.75rem;
+}
